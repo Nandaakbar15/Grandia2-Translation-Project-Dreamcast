@@ -2,6 +2,10 @@
 
 An Indonesian Translation project for Grandia 2, starting working on Dreamcast version then later the PS2 version
 
+All the NPC were translated, main story dialogue. But the main menu isn't translated yet.
+
+Currently, working progress on Liligue City and was about 20%. 
+
 ## Screenshot in the game.
 ![screenshot0](https://github.com/user-attachments/assets/963a82d9-ea65-491a-b468-4aac656d5793) ![screenshot2](https://github.com/user-attachments/assets/6ae24228-d302-403d-95d2-88f8a238f7f8)
 
