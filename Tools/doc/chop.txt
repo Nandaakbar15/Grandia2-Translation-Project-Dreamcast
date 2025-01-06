@@ -1,0 +1,66 @@
+Ti tengo aggiornato continuamente sulle recenti scoperte riguardo ai
+puntatori, così se ti viene voglia di guardarli ti risparmio un po' di
+lavoro...
+
+Questo gioco utilizza il metodo più strano che mi sia mai capitato di
+vedere, una vera follia... :P
+
+Venendo al sodo, ti ho già detto come ottenere i puntatori ai blocchi di
+frase (moltiplica per 8 i due byte del puntatore e parti da dove inizia il
+primo testo).
+Ti faccio un esempio sul file 01 del 2000.afs così siamo sicuri di capirci.
+Una volta arrivati al testo col pointer che hai trovato tu troviamo:
+EC 00 00 00 00 11 00 00 00 40 33 00 01 40 43 02  ecc..
+come ti ho già detto i primi 4 byte sono la lunghezza della tabella dei
+pointer, in pratica a 0xEC inizia il primo testo.
+Successivamente abbiamo i pointer in questo formato
+00 11    00 00
+00 40    33 00
+01 40    43 02 ecc...
+I primi due byte sono solo etichette, gli altri due sono i pointer ma per
+ottenere l'offset assoluto dall'inizio del file bisogna moltiplicare per 8 e
+aggiungere la lunghezza della tabella dei pointer, quindi il primo blocco di
+testo si trova a 00*8+EC=EC mentre il secondo a 33*8+EC=0x284 e così via...
+
+Ora le nuove scoperte:
+Come hai già visto prima di ogni blocco ci sono dei byte ignoti, come era
+facile immaginare sono delle specie di opcode con relativi argomenti.
+Al momento ho indiduato i seguenti opcode:
+08 -> 3 byte di operandi
+09 -> 4 byte di operandi (credo)
+03-> 3 operandi
+0A ->?
+0B ->?
+
+Ora sto cercando di capire a cosa servono.
+Però uno l'ho già studiato ed è molto interessante.
+Il byte 03 se seguito da 10 (come accade spesso) indica l'offset della frase
+che segue quella che si sta considerando. In pratica quando trovi 0310
+prendi i due byte successivi li inverti e trovi l'offset della frase
+seguente partendo dall'inizio "globale" del testo.
+Per farti un esempio, all'offset 0x295 troviamo
+03108A02
+quindi prendendo i 2 byte -> 28A
+e sommando EC (la dimensione della tabella) ottengo 0x376 che è l'inizio
+della seconda frase.
+
+La cosa triste è che le frasi hanno una struttura nidificata. Infatti se ci
+fai caso anche all'offset 28D (quindi prima dell'offset considerato
+nell'esempio precedente) si trova 0310B204 che da come pointer 59E cioè
+punta dopo la frase ricavata sopra. Questo perchè le prime tre frasi vengono
+dette in sequenza dalla stessa persona (il bambino che bazzica fuori dalla
+locanda).
+
+In pratica funziona così: dei pointer alle diverse "persone" o situazioni e
+all'interno altri pointer per le diverse frasi che le singole "persone"
+dicono se ci parli più volte.
+
+Per adesso è tutto, ora cercherò di capire a cosa servono gli altri opcode e
+cosa cambia se dopo 03 non c'è 10 ma un altro byte.
+Se hai tempo di guardare e scopri qualcosa anche tu fammelo sapere.
+
+e cmq ci credo che tutti i tentativi che avete fatto di espendere il testo
+sono falliti, senza asm era praticamente impossibile venirne a capo...
+ciao
+
+chop

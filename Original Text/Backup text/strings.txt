@@ -1,0 +1,637 @@
+﻿************************************************************************************************************
+* This file contains the english translations for previous hard-coded text strings
+* the format for the strings are as follows:
+*
+*	-- '*' represent comments (not used by the program)
+*	-- [Text before the '=' sign] represents the identifier of the string (no translation needed)
+*	-- '=' is the seperator for the identifier and the used string
+*	-- all text after the '=' is the used string ( including spaces )
+*	-- keep number comands after '\' signs as is for now, usually '\3'
+*
+************************************************************************************************************
+
+
+**** Action Names ****
+action_standing_by   =       Standing By
+action_command_input =     Command Input
+action_defend        =            Defend
+action_combo         =             Combo
+action_critical      =          Critical
+action_use_item      =          Use Item
+action_escape        =            Escape
+action_fallen        =            Fallen
+action_hhhhhh        =  4ð4ð4ð4ð4ð4ð4ð4ð
+
+* Encounters
+* must be less than 20 characters
+*
+font_encount_1=You have initiative!
+font_encount_2= You were surprised!
+
+
+* Results
+* must be less than 18 characters
+*
+font_result_1=          EXP Pts.
+font_result_2=     Special Coins
+font_result_3=       Magic Coins
+font_result_4=              Gold
+font_result_5=           Next Lv
+
+
+* Mana
+* must be leess than 40 characters
+*
+font_get_mana_1=                You acquired a Mana Egg.
+font_get_mana_2=              You acquired a Skill Book.
+font_get_mana_3=  Use Equip/Power Up on the Field Window
+
+
+* Win Selection MT
+* must be leess than 20 characters
+*
+font_sel_mt_1=       Moves     No.
+font_sel_mt_2=     Magic 1     No.
+font_sel_mt_3=     Magic 2     No.
+font_sel_mt_4=     Magic 3     No.
+
+
+* Win Selection IE
+* must be leess than 20 characters
+*
+font_sel_ie_1= Recov. Item     No.
+font_sel_ie_2= Attack Item     No.
+font_sel_ie_3=ChangeWeapon     No.
+font_sel_ie_4=Change Equip     No.
+font_sel_ie_5=CurrentEquip     No.
+
+
+*** DIALOG LINES
+	
+DIALOG_ELMO_ACH=Welcome, Tio.
+DIALOG_ESCORT_ELENA_ACH=Anyway, she looks alright
+DIALOG_ROAN_MEDAL_ACH=It's here!
+DIALOG_VALMAR_CORE=Then show me your pitiful
+
+
+*** SAVE/LOAD MENU STRINGS
+	
+saved_games=Saved Games
+free=@@@Free:
+now=Now
+save=Save
+select_file=Select a file to save your game
+save_new_game=Save as a new game?
+save_over_game=Save over this game?
+yes_no=Yes/No
+load=Load
+select_load_game=Select the game you wish to load
+want_to_resume_game=Do you want to resume this game?
+full=@@@Full@
+list=@@@List@
+you_need_blocks=You need 9 free blocks to save game 
+checking_saved_games=        Checking saved games        
+saving_dont_power_off=   Saving, do not turn Power off.   
+saving_game=            Saving game             
+loading_game=            Loading game            
+back=@@@Back@
+hard_suffix= <HARD>
+
+*** VMS STATE INFO STRINGS
+	
+no_memory_present=      No memory card present      
+unformatted_memory=      Unformatted memory card     
+empty_file=Empty file            
+cannot_open_file=Cannot open file      
+corrupted_file=Corrupted file        
+game_not_saved_correctly=     Game not saved correctly     
+game_not_loaded_correctly=     Game not loaded correctly    
+cannot_read_file=Cannot read file      
+timeout_error=           Timeout error          
+reinsert_memory_card=    Please reinsert memory card   
+
+
+*** VMDOWN INFO STRINGS
+
+ready_for_download=Ready for download
+your_visual_memory=Your Visual memory
+not_formatted=Not formatted
+insufficient_memory=Insufficient free memory
+to_stop_you=To stop, you
+do_you_download=Do you the it download?
+at_at_at=@@@@@@@@
+being_downloaded=It is being downloaded@@@@
+visual_memory_check=Is a visual memory check@@@@
+download_successfully=Download successfully.
+download_failed=Download failed
+at_at_at_at_at_at=@@@@@@@@@@
+has_already_entered_the_game=Has already entered the game
+control_port=Control port
+free_disk_space=Free disk space
+watch=Watch
+description=Description
+grandia_watched_used_space=Grandia ‡U watch used space@@@@
+clock_two=Clock 2@@@@@@@@@@@@@@@@@@
+no=No@@@@@@@@@@@@@@@@@@@
+
+
+*** VMSGAME INFO STRINGS
+
+grandia_of_characters_who=Grandia ‡U of characters who 
+visual_memory_of_your_time=In the Visual memory of your time 
+will_tell_you=Will tell you 
+
+
+*** VMSCHK INFO STRINGS
+
+memory_card_required=A memory card is required to save games.
+must_have_nine_free_blocks=The memory card must have 9 free blocks.
+not_be_able_to_save=You will not be able to save your game.
+insufficient_empty_blocks=Insufficient empty blocks.
+saving_required_nine_blocks=Saving a game requires 9 free blocks.
+you_will_not_be_able_to_save=You will not be able to save your game.
+press_start_button=PRESS START BUTTON
+
+
+*** POINT INFO STRINGS
+
+gold=Gold
+special_coins=Special Coins
+magic_coins=Magic Coins 
+
+*** COMMAND INFO STRINGS
+
+items_spaces=  Items   
+moves_magic=Move/Magic
+equip_spaces=  Equip   
+status=  Status  
+power_up= Power Up 
+skillequip=SkillEquip
+set_ai=  Set AI  
+quit_config=Quit/Config
+
+
+*** ITEM TYPE INFO STRINGS
+
+items=Items
+
+
+*** MAGIC INFO STRINGS
+
+moves=Moves		
+magic=Magic
+skills=Skills
+magic_one=Magic1/
+magic_two=Magic2/
+magic_three=Magic3 
+
+
+*** PARAMETER INFO STRINGS
+
+str=STR 
+agi=AGI 
+mag=MAG 
+vit=VIT 
+spd=SPD 
+men=MEN 
+atk=ATK 
+def=DEF 
+act=ACT 
+mov=MOV 
+
+
+*** USE INFO STRINGS
+	
+use_on_who=Use on who?
+cast_by_who=Cast by who?
+cast_on_who=Cast on who?
+equip_who=Equip who?
+skill_equip_who=Skill-equip who?
+look_at_who=Look at who?
+use=Use?
+
+
+*** ITEMTYPE INFO STRINGS
+	
+recov_items=Recov. items
+attack_items=Attack items
+weapons_spaces=Weapons     
+armor_spaces=Armor       
+accessories=Accessories 
+valuables=Valuables   
+
+
+*** EQUIP INFO STRINGS
+	
+equip=Equip
+change_remove=Change/Remove
+equipment_skills=Equipment/Skills
+
+
+*** EQUIP TYPE INFO STRINGS
+	
+weapon=Weapon
+armor=Armor
+headgear=Headgear
+footwear=Footwear
+accessory=Accessory
+mana_egg=Mana Egg
+
+
+*** STATUS INFO STRINGS
+	
+exp=EXP
+next_lv=Next LV
+max_hp=Max HP
+max_mp=Max MP
+max_sp=Max SP
+
+
+*** LEARN INFO STRINGS
+	
+learn_moves=Learn Moves
+learn_skills=Learn Skills
+learn_magic=Learn Magic
+learn_power_up_special=Learn or power up special moves
+learn_power_up_skills=Learn or power up skills
+learn_power_up_magic=Learn or power up magic
+level=LEVEL:
+
+
+*** TATICS HELP STRINGS
+	
+player_enters_all_commands=Player enters all commands            
+fight_mainly_with_normal_attacks=Fight mainly with normal attacks      
+fight_by_raising_friends_parameters=Fight by raising friends' parameters  
+use_mainly_evade_and_defend=Use mainly Evade and Defend           
+go_wild_with_magic_and_special_moves=Go wild with magic and special moves  
+recover_frequently_to_avoid_falling=Recover frequently to avoid falling   
+press_the_enemy_with_annoying_attacks=Press the enemy with annoying attacks 
+characters_act_with_their_personality=Characters act with their personality 
+sets_ai_for_character=Sets AI for character
+sets_ai_for_the_party=Sets AI for the party
+
+
+*** CONFIG HELP STRINGS
+
+you_will_lose_any_unsaved_progress=You will lose any unsaved progress    
+changes_the_settings_of_the_b_button=Changes the setting of {A1}    
+sets_the_rotation_in_field_screens=Sets the rotation in field screens    
+
+
+*** CONFIG INFO STRINGS
+	
+exit_to_title=Exit to Title 
+no_yes=No/Yes
+toggle_b_button=Toggle {A1}
+dash=to dash            
+run_walk=Run/Walk          
+l_trigger_makes={A2} makes 
+screen_rotate=screen rotate   
+right_left=Right/Left        
+
+
+*** ECT INFO STRINGS
+
+bar_bar_bar=||||||||
+next_prev=@@NEXT@@PREV
+h_h_at_at=HHHHHHHHHH@@@@@@@@
+unidentified_sign=¨
+
+
+*** SHOP INFO STRINGS
+	
+shop=Shop
+number_owned=# owned:@@
+cost=Cost
+buy=Buy 
+buy_abbr=Buy 
+sell=Sell
+sell_abbr=Sell
+leave=Leave
+what_can_i_do_for_you=What can I do for you?
+cancel=Cancel
+whatll_you_buy=What'll you buy?
+attack_colon=Attack :
+defense=Defense:
+action=Action :
+move=Move   :
+who_will_be_equipped=Who will be equipped?
+x_five=x5
+at_cancels=(@  cancels)
+
+
+*** SHOP SALE INFO STRINGS
+	
+recovery=Recovery
+attack=Attack
+weapons=Weapons
+other=Other
+whatll_you_sell=What'll you sell?
+
+
+*** ALLSALE INFO STRINGS
+	
+all=All 
+
+
+*** SHOP REPLY INFO STRINGS
+	
+thank_you_very_much=Thank you very much
+cannot_equip=Cannot equip
+
+
+*** Displayed when picking up gold and is used like so:
+***
+*** 1000G acquired.
+***
+get_gold_msg=G acquired.
+
+
+*** Displayed when picking up items and is used like so:
+***
+*** "Some Item" acquired.
+***
+*** The item is inserted after the first character/quote.
+***
+get_item_msg="" acquired.
+
+
+*** Escape messages
+*** Must be exactly 40 characters padded on the left.
+escape_1=                 C'mon, this way. Hurry!
+escape_2=                   Let's retreat. Hurry!
+escape_3= Next time, you won't get off so easily!
+escape_4=                     Everyone! This way!
+escape_5=               Ryudo, we should regroup.
+escape_6=       We shall resume this match later.
+escape_7=                          Let's retreat.
+
+
+mapid_1000=SILESIAN CONTINENT
+mapid_1004=SILESIAN CONTINENT
+mapid_1010=EAST SILESIA
+mapid_1020=ISLAND OF GARLAN & VICINITY
+mapid_1030=GREAT CLEFT ISLAND OF ARACHNA
+mapid_1040=EAST SILESIA
+mapid_2000=CARBO VILLAGE
+mapid_2001=CARBO VILLAGE
+mapid_2010=CARBO INN
+mapid_2020=CARBO GENERAL STORE
+mapid_2030=CARBO, CHURCH OF GRANAS
+mapid_20A0=CARBO, HOUSE 1
+mapid_20B0=CARBO, HOUSE 2
+mapid_20C0=CARBO, HOUSE 3
+mapid_20D0=CARBO, HOUSE 4
+mapid_2400=THE BLACK FOREST 1
+mapid_2410=THE BLACK FOREST 2
+mapid_2801=GARMIA TOWER
+mapid_2811=GARMIA TOWER, 1ST FLOOR
+mapid_2821=Garmia Tower, 2nd Floor
+mapid_2831=GARMIA TOWER, 3RD FLOOR
+mapid_28F1=GARMIA TOWER, TOP FLOOR
+mapid_2C00=INOR MOUNTAINS 1
+mapid_2C10=INOR MOUNTAINS 2
+mapid_3000=AGEAR TOWN
+mapid_3010=AGEAR INN
+mapid_3014=AGEAR INN, ROOM 1
+mapid_3018=AGEAR INN, ROOM 2
+mapid_301C=AGEAR INN, CORRIDOR
+mapid_3020=AGEAR, GUARDS' TENT
+mapid_3400=DURHAM CAVE 1
+mapid_3410=DURHAM CAVE 2
+mapid_34F0=DURHAM CAVE DEPTHS
+mapid_3800=BAKED PLAINS 1
+mapid_3810=BAKED PLAINS 2
+mapid_3820=BAKED PLAINS 3
+mapid_3C00=LILIGUE CITY
+mapid_3C02=LILIGUE CITY
+mapid_3C04=LILIGUE, SKYWAY STATION
+mapid_3C06=LILIGUE, SKYWAY STATION
+mapid_3C08=----
+mapid_3C10=LILIGUE INN
+mapid_3C20=LILIGUE GENERAL STORE
+mapid_3C30=LILIGUE, ENGINEER'S HOUSE
+mapid_3C40=LILIGUE, GADAN'S HOUSE
+mapid_3C80=LILIGUE, CHURCH, DOWNSTAIRS
+mapid_3C84=LILIGUE, CHURCH, UPSTAIRS
+mapid_3CA0=LILIGUE, HOUSE 1
+mapid_3CB0=LILIGUE, HOUSE 2
+mapid_3CC0=LILIGUE, HOUSE 3
+mapid_3CD0=LILIGUE, HOUSE 4
+mapid_4000=LILIGUE CAVE 1
+mapid_4010=LILIGUE CAVE 2
+mapid_4020=LILIGUE CAVE, CAVERNS
+mapid_4030=LILIGUE CAVE 3
+mapid_40F0=LILIGUE CAVE, TEMPLE RUINS
+mapid_4400=LUMIR FOREST, CRASH SITE
+mapid_4410=LUMIR FOREST
+mapid_4420=LUMIR FOREST, CAVERN 1
+mapid_4430=LUMIR FOREST, CAVERN 2
+mapid_4800=THE GARDEN OF DREAMS
+mapid_4810=THE GARDEN OF DREAMS
+mapid_4C00=MIRUMU VILLAGE
+mapid_4C10=MIRUMU INN
+mapid_4C14=MIRUMU INN, GUESTROOM
+mapid_4C18=MIRUMU INN, MANAGER'S ROOM
+mapid_4C20=MIRUMU GENERAL STORE
+mapid_4C30=MIRUMU TOWN HALL
+mapid_4C40=MIRUMU VILLAGE CHIEF'S HOUSE
+mapid_4C50=MIRUMU, SANDRA'S HOUSE
+mapid_4C60=MIRUMU, SHED
+mapid_4CA0=MIRUMU, HOUSE 1
+mapid_4CB0=MIRUMU, HOUSE 2
+mapid_4CC0=MIRUMU, HOUSE 3
+mapid_5000=MYSTERIOUS FISSURE, UNDERGROUND
+mapid_5010=MYSTERIOUS FISSURE, DEPTHS
+mapid_5020=AIRA'S SPACE, 1
+mapid_5030=AIRA'S SPACE, 2
+mapid_5040=RYUDO'S DREAM
+mapid_50F0=AIRA'S SPACE, ROOM OF SOLITUDE
+mapid_5400=St. HEIM MOUNTAINS, BASE
+mapid_5410=St. HEIM MOUNTAINS, HALFWAY UP
+mapid_5420=St. HEIM MOUNTAINS, CAVERNS
+mapid_5430=St. HEIM MOUNTAINS, WATERFALL
+mapid_5440=St. HEIM MOUNTAINS, PILGRIM ROAD
+mapid_5800=St. HEIM PAPAL STATE
+mapid_5810=St. HEIM INN
+mapid_5814=----
+mapid_5820=St. HEIM GENERAL STORE
+mapid_5824=St. HEIM GENERAL STORE
+mapid_5830=St. HEIM LIBRARY
+mapid_5840=St. HEIM BAKERY
+mapid_5850=St. HEIM, PASTURES
+mapid_58A0=St. HEIM, HOUSE 1, DOWNSTAIRS
+mapid_58A4=St. HEIM, HOUSE 1, UPSTAIRS
+mapid_58B0=St. HEIM, HOUSE 2
+mapid_58C0=St. HEIM, HOUSE 3
+mapid_58D0=St. HEIM, HOUSE 4
+mapid_5C00=GRANAS CATHEDRAL
+mapid_5C01=----
+mapid_5C10=CATHEDRAL LOBBY
+mapid_5C14=CATHEDRAL, GUESTROOM CORRIDOR
+mapid_5C20=CATHEDRAL, AUDIENCE CHAMBER
+mapid_5C30=CATHEDRAL, POPE'S ROOM
+mapid_5C40=CATHEDRAL, FORBIDDEN ROOM
+mapid_5C50=CATHEDRAL BALCONY
+mapid_5C68=CATHEDRAL GUESTROOM
+mapid_5C70=CATHEDRAL, HOLY ROOM
+mapid_5C80=CATHEDRAL, ROOM OF TRUTH
+mapid_5C90=CATHEDRAL, POPE'S ROOM CORRIDOR
+mapid_5CB0=CATHEDRAL LIBRARY
+mapid_5CC0=CATHEDRAL, ORO'S ROOM
+mapid_6000=RAUL HILLS 1
+mapid_6010=RAUL HILLS 2
+mapid_6400=CYRUM KINGDOM
+mapid_6402=CYRUM KINGDOM
+mapid_6408=CYRUM KINGDOM, PORT
+mapid_6410=CYRUM INN, DOWNSTAIRS
+mapid_6414=CYRUM INN, UPSTAIRS
+mapid_641C=CYRUM INN, CORRIDOR
+mapid_6420=CYRUM GENERAL STORE
+mapid_6430=CYRUM KINGDOM, INFORMANT'S TENT
+mapid_64A0=CYRUM, HOUSE 1, DOWNSTAIRS
+mapid_64A4=CYRUM, HOUSE 1, UPSTAIRS
+mapid_64B0=CYRUM, HOUSE 2, DOWNSTAIRS
+mapid_64B4=CYRUM, HOUSE 2, UPSTAIRS
+mapid_64C0=CYRUM, HOUSE 3
+mapid_64D0=CYRUM, HOUSE 4
+mapid_6600=CYRUM CASTLE, SECRET PASSAGE
+mapid_6800=CYRUM CASTLE, FRONT GATE
+mapid_6810=CYRUM CASTLE, DOWNSTAIRS LOBBY
+mapid_6820=CYRUM CASTLE, AUDIENCE CHAMBER
+mapid_6830=CYRUM CASTLE, DOWNSTAIRS HALL
+mapid_6840=CYRUM CASTLE, ROOM 1
+mapid_6848=CYRUM CASTLE, ROOM 2
+mapid_6880=CYRUM CASTLE, KING'S CHAMBER
+mapid_6890=CYRUM CASTLE, KING'S OFFICE
+mapid_68A0=CASTLE, ROOM OF DEMON-SEALING
+mapid_68b0=CYRUM CASTLE, BACKYARD
+mapid_68c0=CYRUM CASTLE, AUDIENCE SQUARE
+mapid_6C00=UNDERGROUND PLANT 1
+mapid_6C10=UNDERGROUND PLANT 2
+mapid_6C20=UNDERGROUND PLANT 3
+mapid_6C30=----
+mapid_6CF0=UNDERGROUND PLANT, CONTROL ROOM
+mapid_6CF4=UNDERGROUND PLANT, CONTROL ROOM
+mapid_7000=CYRUM KINGDOM
+mapid_7010=CYRUM INN
+mapid_7014=CYRUM INN, GUESTROOM
+mapid_701C=CYRUM INN, CORRIDOR
+mapid_7020=CYRUM GENERAL STORE
+mapid_7400=THE 50/50, DECK
+mapid_7410=THE 50/50, CABIN
+mapid_7420=THE 50/50, SLEEPING CABIN
+mapid_74A0=THE 50/50
+mapid_7800=CECEILE REEF, POINT
+mapid_7820=CECEILE REEF 1
+mapid_7830=CECEILE REEF 2
+mapid_7C00=GARLAN VILLAGE
+mapid_7C01=----
+mapid_7C10=GARLAN INN
+mapid_7C14=GARLAN INN, ROOM 1
+mapid_7C18=GARLAN INN, ROOM 2
+mapid_7C1C=GARLAN INN, CORRIDOR
+mapid_7C20=GARLAN GENERAL STORE
+mapid_7C30=GARLAN, VILLAGE CHIEF'S HOUSE
+mapid_7CA0=GARLAN, HOUSE 1
+mapid_7CB0=GARLAN, HOUSE 2
+mapid_7CC0=GARLAN, HOUSE 3
+mapid_7CD0=GARLAN, HOUSE 4
+mapid_8000=GRAIL MOUNTAIN ROAD 1
+mapid_8010=GRAIL MOUNTAIN ROAD 2
+mapid_8020=GRAIL MOUNTAIN, SHRINE SQUARE
+mapid_8030=GRAIL MOUNTAIN, SHRINE
+mapid_8031=----
+mapid_8034=----
+mapid_8040=GRAIL MOUNTAIN ROAD 3
+mapid_8050=GRAIL MTN., PLATEAU OF MEMORIES
+mapid_8051=GRAIL MTN., PLATEAU OF MEMORIES
+mapid_8060=RYUDO'S PAST, BLACK HORNS APPEAR
+mapid_8400=RYUDO SPIRIT WORLD, BLACK SPACE
+mapid_8800=GHOSS FOREST, WEST 1
+mapid_8810=GHOSS FOREST, WEST 2
+mapid_8820=GHOSS FOREST, EAST 1
+mapid_8830=GHOSS FOREST, EAST 2
+mapid_8C00=NANAN VILLAGE
+mapid_8C10=NANAN INN
+mapid_8C20=NANAN GENERAL STORE
+mapid_8C30=NANAN, ELDER'S HOUSE
+mapid_8C40=NANAN, MAREG'S HOUSE
+mapid_8C50=NANAN, HUT OF TRIALS
+mapid_8C60=NANAN, WEAVING HUT
+mapid_8C70=NANAN SPRING
+mapid_8CA0=NANAN, HOUSE 1
+mapid_8CB0=NANAN, HOUSE 2
+mapid_8CC0=NANAN, HOUSE 3
+mapid_8E00=HUT OF TRIALS, UNDERGROUND
+mapid_9000=THE GREAT RIFT, 1
+mapid_9010=THE GREAT RIFT, 2
+mapid_9020=THE GREAT RIFT, 3
+mapid_9030=THE GREAT RIFT, 4
+mapid_9200=DEMON'S LAW
+mapid_92F0=DEMON'S LAW, CONTROL ROOM
+mapid_9400=GRANASABER, OUTSIDE VIEW
+mapid_9410=GRANASABER, CONTROL ROOM
+mapid_9420=GRANASABER, CABIN
+mapid_9800=VALMAR'S BODY, POINT OF ENTRY
+mapid_9810=VALMAR'S BODY, TENTACLE PASSAGE
+mapid_9820=VALMAR'S BODY, VEIN PASSAGE
+mapid_9830=VALMAR'S BODY, ARTERY PASSAGE
+mapid_9840=VALMAR'S BODY, SPHERICAL ROOM
+mapid_98F0=VALMAR'S BODY, CORE
+mapid_9C00=VALMAR'S MOON, SURFACE
+mapid_9C04=VALMAR'S MOON, SURFACE
+mapid_9C10=VALMAR'S MOON, 1
+mapid_9C20=VALMAR'S MOON, 2
+mapid_9C30=VALMAR'S MOON, 3
+mapid_9C40=VALMAR'S MOON, EGGSHELL
+mapid_9C44=----
+mapid_9CF0=VALMAR'S WOMB
+mapid_A000=CYRUM KINGDOM, SOUTH
+mapid_A004=CYRUM ROYAL MAUSOLEUM
+mapid_A010=BIRTHPLACE OF THE GODS, 1
+mapid_A020=BIRTHPLACE OF THE GODS, 2
+mapid_A030=BIRTHPLACE OF THE GODS, 3
+mapid_A040=BIRTHPLACE OF GODS, CONTROL ROOM
+mapid_A050=BIRTHPLACE OF GODS, OPEN SYSTEM
+mapid_A060=BIRTHPLACE OF GODS, OPEN THOUGHT
+mapid_A400=NEW VALMAR, 1
+mapid_A410=NEW VALMAR, 2
+mapid_A420=NEW VALMAR, 3
+mapid_A430=NEW VALMAR, CORE
+mapid_A434=NEW VALMAR, CORE
+mapid_A4F0=NEW VALMAR, ROOM OF CHAOS
+mapid_A4F4=NEW VALMAR, ROOM OF CHAOS
+mapid_A4F8=NEW VALMAR, ROOM OF CHAOS
+mapid_A4FC=NEW VALMAR, ROOM OF CHAOS
+mapid_D000=FOREST PATH to CARBO VILLAGE
+mapid_D020=RETURNING THE STOLEN ARTICLE
+mapid_D030=WITT FOREST PATH
+mapid_D400=JET-BLACK SPACE 1
+mapid_D410=JET-BLACK SPACE 2
+mapid_D800=RYUDO BURIES SOMEONE'S SWORD
+mapid_D802=MIRUMU VILLAGE
+mapid_D810=MIRUMU INN
+mapid_D814=MIRUMU INN, GUESTROOM
+mapid_D818=MIRUMU INN, MANAGER'S ROOM
+mapid_D820=MIRUMU GENERAL STORE
+mapid_D830=MIRUMU TOWN HALL
+mapid_D840=MIRUMU VILLAGE CHIEF'S HOUSE
+mapid_D850=MIRUMU, SANDRA'S HOUSE
+mapid_D8A0=MIRUMU, HOUSE 1
+mapid_D8B0=MIRUMU, HOUSE 2
+mapid_D8C0=MIRUMU, HOUSE 3
+mapid_D8F0=----
+mapid_E010=RYUDO'S TENT
+
+*** Fix for Magic Tutor
+8d38731a=Magic Tutor
+
+*** Needed changes for fixed Translations
+4383429d=Lowers strength of foe
+572fc108=+10 DEF  Restores some HP in combat
+783e762e=Drops all foes movement
+696d947c=+44 DEF Gives move block resistance
+534fc6e0=Drops action with soul-chilling cold
+de3e62b5=Forest life-force ups action ability
